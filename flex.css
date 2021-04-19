@@ -1,0 +1,162 @@
+*, body, html{
+    
+    margin:0;
+    padding:0;
+
+}
+
+
+html{
+    
+    height: 100%;
+}
+
+header{
+    padding: 30px;
+    margin-bottom: 80px;
+    font-family: cursive;
+    font-weight:bold;
+    font-size: 16px;
+}
+header h1{
+    color: white;
+    text-align: left;
+    padding: 20px;
+    display: inline-block;
+}
+
+header nav{
+    text-align: center; 
+    
+    
+}
+
+header nav li{
+    display: inline-block;
+    padding: 10px;
+    
+    
+    
+}
+nav{
+    
+   list-style: none;
+    display: inline-block;
+    float: right;
+    font-size: 1.5em;
+    
+    
+}
+nav li a{
+     text-decoration: inherit;
+    
+}
+
+
+body{
+    
+    height: 100%;
+    background-color: #eee;
+    font: 1em Oswald;
+    text-decoration: optimizelegibility !important;
+    -webkit-font-smoothing:antialiased !important;
+    background-color: #c0392b;
+        
+  
+    
+    
+}
+article img{
+    
+    text-align: center;
+        width: 80%;
+       padding: 10px;
+        border-radius: 4px;
+    }
+
+
+.col{
+ width: 100%;
+ font-size: 16px;
+ padding: 10px;
+
+
+
+}
+
+.wrapper{
+       width: 90%; 
+        margin: 20px auto;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+
+
+
+    }
+
+    .wrapper div{
+        flex-basis: 33.3%;
+        height: 500px;
+        width: 500px;
+        background-color: rgb(75, 131, 131);
+        color: gainsboro;
+        font-size: 16px;
+        border-radius: 4px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        
+        
+        }
+ 
+.wrapper div.empty{
+
+      background-color: transparent;
+      border: none;
+        }
+
+ @media only screen and (max-width:700px){
+     .wrapper{
+                width: 98%; 
+                 margin:0.5rem auto;
+                 padding: 1rem;
+    
+              
+             }
+             
+             .wrapper div{
+             
+             height: 250px;
+             flex-basis: 45.5%;
+
+
+         
+        
+             }
+        }
+      
+
+@media only screen and (max-width:500px){
+            .wrapper{
+                       width: 98%; 
+                        margin:0.5rem auto;
+                        padding: 1rem;
+           
+                     
+                    }        
+
+             .wrapper div{
+             
+                        height: 320px;
+                        flex-basis: 100%;
+           
+           
+                    
+                   
+                        }
+                   }
